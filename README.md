@@ -9,17 +9,18 @@ pip install > requirements.txt
 ### The causalNex library requires R and R tools 
 
 [R for windows 10]( https://cran.r-project.org/bin/windows/base/)
+</br>
 [R tools for windows 10](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html )
 
-###R packages
+<h3>R packages</h3>
 
-..1.pcalg
-..2.devtools
-..3.BiocManager
-..4.RCIT [github_repository_RCIT](https://github.com/Diviyan-Kalainathan/RCIT)
-..5.Sparsebn (dependencies --> sparsebnUtils,ccdrAlgorithm,discretedcAlgorithm)
+1. pcalg
+2. devtools
+3. BiocManager
+4. RCIT [github_repository_RCIT](https://github.com/Diviyan-Kalainathan/RCIT)
+5. Sparsebn (dependencies --> sparsebnUtils,ccdrAlgorithm,discretedcAlgorithm)  
 
-###Installation command for R packages
+<h3>Installation command for R packages</h3>
 
 ```
 (install.packages(‘package_name’,lib=’R_library_folder_path’,repos=NULL)
@@ -32,11 +33,11 @@ pip install > requirements.txt
 install.packages('sparsebn_0.1.2.zip', lib='C:/Program Files/R/R-4.2.2/library',repos = NULL)
 ```
 
-###BiocManager Packages
+### BiocManager Packages
 
-..1.graph
-..2.RBGL
-..3.Rgraphviz
+1. graph
+2. RBGL
+3. Rgraphviz
 
 ### Installation command for BiocManager
 
